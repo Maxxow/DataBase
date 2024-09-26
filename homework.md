@@ -72,3 +72,5 @@ SELECT email_user FROM Users WHERE password CHECK(LENGTH (password) >= 9);
 SELECT id_user FROM Users Where id CHECK(LENGTH (id_user) = (id % 2 = 0));
 
 ```
+
+### Final
