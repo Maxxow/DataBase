@@ -68,6 +68,9 @@ SELECT email FROM Users;
 -- con el check
 SELECT * FROM Users WHERE password = passsword>=9;
 
+--Ejemplo corregido:
+SELECT * FROM Users WHERE password CHECK(password (LENGTH(password)>=9))
+
 -- Ejercicio, Realiza una consulta que muestre solo el email que concida con una contraseña de mas de 8 caracteres y otra que realice una consulta a los id´s pares 
 
 ```
