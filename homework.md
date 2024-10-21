@@ -69,8 +69,55 @@ SELECT * FROM Users WHERE password CHECK(password (LENGTH(password)>=9));
 SELECT email_user FROM Users WHERE password CHECK(LENGTH (password) >= 9);
 --///////////////////////////////////////////////////////////////////////
 --Consulta de los id´s pares
-SELECT id_user FROM Users Where id CHECK(LENGTH (id_user) = (id % 2 = 0));
+SELECT id_user FROM Users WHERE id CHECK(LENGTH (id_user) = (id % 2 = 0));
 
 ```
+## Primero los 50 inserts ajsjas
+
+```sql
+INSERT Users VALUES (DEFAULT, "example01@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example02@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example03@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example04@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example05@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example06@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example07@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example08@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example09@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example20@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example21@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example22@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example23@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example24@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example25@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example26@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example27@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example28@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example29@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example30@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example31@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example32@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example33@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example34@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example35@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example36@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example37@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example38@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example39@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example40@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example41@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example42@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example43@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example44@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example45@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example46@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example47@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example48@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example49@gmail.com","123456788");
+INSERT Users VALUES (DEFAULT, "example50@gmail.com","123456788");
+
+
+```
+
 
 ### Final
